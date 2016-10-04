@@ -1,0 +1,82 @@
+/*
+Resume Stylesheet
+*/
+body{
+  color: black;
+  font-family: "Times New Roman", sans-serif;
+  font-size:15px;
+  margin: auto;
+  margin-bottom: 15px;
+  width: 84%;
+}
+h1 { 
+  font-size: 1.3em;
+  margin-top: 67px;
+  margin-bottom: 0;
+  text-align: center;
+}
+section {
+  margin-top:15px;
+}
+#contact{
+  margin-top:0;
+  text-align:center;
+}
+h2 {
+  font-size:1em;
+  font-weight: bolder;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-decoration: underline;
+}
+h3 {
+  font-size:1em;
+  font-weight:bold;
+  margin:0;
+}
+h4{
+  font-style: italic;
+  margin:0;
+}
+p{
+  margin:0;
+}
+ul{
+  margin:0;
+}
+.date{
+  float: right;        
+}
+
+.responsiveDate {
+    display: none;
+}
+
+.intended{
+  color:red;
+}
+.bold{
+  font-weight: bold;
+}
+#internships ul{
+  margin-bottom:15px;
+}
+#breakItUp{
+  display:none;
+}
+
+@media all and (max-width: 500px) {
+    
+    .date {
+        display: none;
+    }
+    .responsiveDate {
+        display: inline;
+    }
+    #breakItUp{
+        display:inline;
+    }
+    #bullet{
+        display: none;
+    }
+}
