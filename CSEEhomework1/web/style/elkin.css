@@ -1,0 +1,94 @@
+/*
+Copyright (c) 2016 Christy Smith
+Campus Box 7915, Elon University, Elon, NC 27244
+
+Copyright (c) 2016 Evan Elkin
+Campus Box 7947, Elon University, Elon, NC 27244
+*/
+body {
+  color: black;
+  font: 15px "Times New Roman", sans-serif;
+  margin: 0 auto 1em;
+  width: 84%;
+}
+
+h1 { 
+  font-size: 1.3em;
+  margin: 3.6em auto 0;
+  text-align: center;
+}
+
+section {
+  margin-top: 1em;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: bolder;
+  margin: 0 auto 0;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+h4 {
+  font-style: italic;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.date {
+  float: right;        
+}
+
+.responsive-date {
+  display: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#contact {
+  margin-top: 0;
+  text-align: center;
+}
+
+#internships ul {
+  margin-bottom: 1em;
+}
+
+#break {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+    
+    .date {
+      display: none;
+    }
+    
+    .responsive-date {
+      display: inline;
+    }
+    
+    #break {
+      display: inline;
+    }
+    
+    #bullet {
+      display: none;
+    }
+    
+}
