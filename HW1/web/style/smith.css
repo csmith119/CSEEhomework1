@@ -1,82 +1,94 @@
 /*
 Resume Stylesheet
 */
-body{
+body {
   color: black;
-  font-family: "Times New Roman", sans-serif;
-  font-size:15px;
-  margin: auto;
-  margin-bottom: 15px;
+  font: 15px "Times New Roman", sans-serif;
+  margin: 0 auto 1em;
   width: 84%;
 }
+
 h1 { 
   font-size: 1.3em;
-  margin-top: 67px;
-  margin-bottom: 0;
+  margin: 3.6em auto 0;
   text-align: center;
 }
+
 section {
-  margin-top:15px;
+  margin-top: 1em;
 }
-#contact{
-  margin-top:0;
-  text-align:center;
-}
+
 h2 {
-  font-size:1em;
+  font-size: 1em;
   font-weight: bolder;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0 auto 0;
   text-decoration: underline;
 }
+
 h3 {
-  font-size:1em;
-  font-weight:bold;
-  margin:0;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
 }
-h4{
+
+h4 {
   font-style: italic;
-  margin:0;
+  margin: 0;
 }
-p{
-  margin:0;
+
+p {
+  margin: 0;
 }
-ul{
-  margin:0;
+
+ul {
+  margin: 0;
 }
-.date{
+
+.date {
   float: right;        
 }
 
-.responsiveDate {
-    display: none;
+.responsive-date {
+  display: none;
 }
 
-.intended{
-  color:red;
+.intended {
+  color: red;
 }
-.bold{
+
+.bold {
   font-weight: bold;
 }
-#internships ul{
-  margin-bottom:15px;
+
+#contact {
+  margin-top: 0;
+  text-align: center;
 }
-#breakItUp{
-  display:none;
+
+#internships ul {
+  margin-bottom: 1em;
+}
+
+#break {
+  display: none;
 }
 
 @media all and (max-width: 500px) {
     
     .date {
-        display: none;
+      display: none;
     }
-    .responsiveDate {
-        display: inline;
+    
+    .responsive-date {
+      display: inline;
     }
-    #breakItUp{
-        display:inline;
+    
+    #break {
+      display: inline;
     }
-    #bullet{
-        display: none;
+    
+    #bullet {
+      display: none;
     }
+    
 }
